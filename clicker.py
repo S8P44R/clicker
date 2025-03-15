@@ -3,7 +3,7 @@ import tkinter as tk
 root = tk.Tk() #Tworzenie okna
 
 root.title("Bomb Clicker")
-root.geometry("900x700")
+root.geometry("950x700")
 root.iconbitmap("roblox.ico")
 root.resizable(False, False)
 
@@ -47,7 +47,7 @@ def start(event):
     else:
         update_bomb()
         update_score()
-        uodate_display()
+        update_display()
         label.config(text = "")
         press_return = False
         
